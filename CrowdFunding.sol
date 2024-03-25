@@ -10,7 +10,7 @@ contract CrowdFunding {
         uint currentAmount;
         address owner;
         ProjectStatus status;
-    }
+    }  
 
     Project[] public projects;
     uint public constant CONTRIBUTION_AMOUNT = 100;
